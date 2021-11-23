@@ -1,10 +1,31 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet, Dimensions } from "react-native";
 
-export const headerStyles = StyleSheet.create({
+
+let ScreenHeight = Dimensions.get("window").height;
+
+export const navStyles = StyleSheet.create({
     header: {
         paddingVertical: 15,
         paddingHorizontal: 25,
         backgroundColor: 'white',
         fontSize: 50,
+    },
+    sideNav: {
+        flex: 0,
+        width: '100%',
+        height: ScreenHeight,
+        textAlign: 'center',
+        position: 'relative',
+        top: -75,
+        zIndex: 100,
+    },
+    list: {
+        lineHeight: 55,
+    },
+    underLay:{
+        backgroundColor:'rgba(0, 0, 0, 0.64)',
+        position:'absolute',
+        height:'100%',
+        width:'100%',
     }
 })
