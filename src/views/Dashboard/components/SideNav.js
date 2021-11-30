@@ -32,7 +32,7 @@ export default function SideNav(props) {
                     { key: 'logout', url: require('../../../assets/logout.png') }
                 ]}
                 style={{
-                    width: '80%', backgroundColor: 'white', paddingHorizontal: 40, paddingVertical: 30,
+                    width: '80%', backgroundColor: 'white', paddingHorizontal: 40, paddingVertical: 30
                 }}
                 renderItem={
                     ({ item }) =>

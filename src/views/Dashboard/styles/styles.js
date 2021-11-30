@@ -1,7 +1,7 @@
 import { StyleSheet, Dimensions } from "react-native";
 
 
-let ScreenHeight = Dimensions.get("window").height;
+// let ScreenHeight = Dimensions.get("window").height;
 
 export const navStyles = StyleSheet.create({
     header: {
@@ -13,7 +13,7 @@ export const navStyles = StyleSheet.create({
     sideNav: {
         flex: 0,
         width: '100%',
-        height: ScreenHeight,
+        height: '100%',
         textAlign: 'center',
         position: 'absolute',
         zIndex: 10,
