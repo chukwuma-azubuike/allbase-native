@@ -1,0 +1,22 @@
+[
+    {
+        "count": 10,
+        "description": "Total Customers"
+    },
+    {
+        "count": 10,
+        "description": "Paid Invoices"
+    },
+    {
+        "count": 10,
+        "description": "Due Invoices"
+    },
+    {
+        "count": 10,
+        "description": "Pending Requests"
+    },
+    {
+        "count": 10,
+        "description": "Monitoring Devices"
+    }
+]

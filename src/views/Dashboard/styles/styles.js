@@ -15,17 +15,20 @@ export const navStyles = StyleSheet.create({
         width: '100%',
         height: ScreenHeight,
         textAlign: 'center',
-        position: 'relative',
-        top: -75,
-        zIndex: 100,
+        position: 'absolute',
+        zIndex: 10,
     },
     list: {
         lineHeight: 55,
     },
-    underLay:{
-        backgroundColor:'rgba(0, 0, 0, 0.64)',
-        position:'absolute',
-        height:'100%',
-        width:'100%',
+    underLay: {
+        backgroundColor: 'rgba(0, 0, 0, 0.64)',
+        position: 'absolute',
+        height: '100%',
+        width: '100%',
+    },
+    body: {
+        paddingHorizontal: 20,
+        paddingVertical: 30
     }
 })

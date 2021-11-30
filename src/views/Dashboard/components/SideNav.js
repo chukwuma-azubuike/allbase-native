@@ -38,10 +38,10 @@ export default function SideNav(props) {
                     ({ item }) =>
                         <TouchableOpacity onPress={handlePress} style={theme.justifyAlign} >
                             <Image
-                                style={{ width: 30, height: 30, marginTop: 10 }}
+                                style={{ width: 30, height: 30, marginTop: 10, marginRight: 40 }}
                                 source={item.url}
                             />
-                            <Text style={[navStyles.list, { fontSize: 22 }]} >{item.key}</Text>
+                            <Text style={[navStyles.list, { fontSize: 20, flex: 1 }]} >{item.key}</Text>
                             {item.url2 && <Image source={item.url2} />}
                         </TouchableOpacity>
                 }
